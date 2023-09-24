@@ -14,16 +14,16 @@ Development using Git follows three steps/stages. They are:
      - To check which file is in the staging area and which is not: `git status`
   3. **Move to the Local Respository**: In this stage, we commit the files/changes in the Staging Area and thus add them to the Local Repository. <br>
     `git commit -m "This is my first commit!"`
-  4. **Make a Branch**: We create branches to protect our primary branch from unwanted changes. The following command will create a new branch and "check us out" on it:
-     `git checkout -b <new_branch_name>`
+  4. **Make a Branch**: We create branches to protect our primary branch from unwanted changes. The following command will create a new branch and "check us out" on it: <br>
+     `git checkout -b <new_branch_name>` <br>
      To see info about branches: `git branch`
   5. **Create a New Repository on GitHub**: Create a repository on GitHub and copy its link.
   6. **Add a Remote Repository Reference to Your Local Git Repository**: <br>
   `git remote add origin https://github.com/cubeton/mynewrepository.git` <br>
   In Git, "origin" is a conventional name for the default remote repository that your local Git repository is configured to interact with.
   7. **Push a Branch**: Pushing simply refers to updating the remote repository with your local changes(commits).
-     `git push -u origin master`
-     **Structure**: `git push <remote> <branch>`
+     `git push -u origin master` <br>
+     **Structure**: `git push <remote> <branch>` <br>
      By using `-u` flag, you are setting up the default remote repository(upstream branch). Later you can simply, `git push` without specifying the repository name.
   8. **Pull**: Pulling will allow you to update your local branch with the remote branch. <br>
   `git pull origin master` <br>
