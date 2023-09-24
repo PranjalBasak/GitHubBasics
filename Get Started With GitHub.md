@@ -38,3 +38,4 @@ Development using Git follows three steps/stages. They are:
 - `git diff` : Shows the differences between your working directory and the last commit.
 - `git rm file.txt` : Deletes a file from both your working directory and the staging area. You must commit to update the changes to your local respository
 - `git rm -r folder`
+- `git clone <url>` : Clones the remote repository to your machine. Now you can make changes to it, commit and push to the remote repository as you wish (You can directly push to the remote repository if you own or co-own the remote repository)
