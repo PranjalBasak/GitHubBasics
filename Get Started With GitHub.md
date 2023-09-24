@@ -36,3 +36,4 @@ Development using Git follows three steps/stages. They are:
 - `git log` : This command shows the commit history of a Git repository
 - `git status` : It shows the current status of your current working directory
 - `git diff` : Shows the differences between your working directory and the last commit.
+- `git rm file.txt` 
