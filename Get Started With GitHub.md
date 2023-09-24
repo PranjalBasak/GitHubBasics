@@ -27,7 +27,7 @@ Development using Git follows three steps/stages. They are:
      By using `-u` flag, you are setting up the default remote repository(upstream branch). Later you can simply, `git push` without specifying the repository name.
   8. **Pull**: Pulling will allow you to update your local branch with the remote branch. <br>
   `git pull origin master` <br>
-  This command performs two actions:
+  This command performs two actions: <br>
     a. `git fetch` : This command retrives information on changes made on the remote repository <br>
     b. `git merge <source-branch>` : <br> First we need to switch to the target branch that will be marged with the changes from the source branch : `git checkout <target-branch>`
 <br> Then we will perform the merge: `git merge <source-branch>` <br>
